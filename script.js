@@ -50,7 +50,7 @@ console.log(userNr);
 //Stabilire il vincitore
 if ( cpuNr > userNr){
     alert(`Il numero del computer è: ${cpuNr}. Il tuo numero è ${userNr}. Hai perso!`)
-} else ( userNr > cpuNr){
+} else{
     alert(`Il tuo numero è ${userNr}. Il numero del computer è: ${cpuNr}. Hai vinto!`)
 } 
 
