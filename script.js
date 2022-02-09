@@ -1,5 +1,14 @@
 //Creare una lista esclusiva di user i quali possono accedere al servzio
+let emails = [
+    'alberto@gmail.com',
+    'gianluca@gmail.com',
+    'alessio@gmail.com',
+    'massimo@gmail.com'
+];
+console.log(emails);
+
 //Chiedere l'email all'user
+
 //Controllare che l'email riferita all'user sia nella lista esclusiva
 //Stampare un messaggio per l'user con l'esito del controllo
 
