@@ -37,7 +37,24 @@ if(search === true){
 
 
 /*-----Gioco dei dadi-----*/
+
 //Generare due numeri random da 1 a 6
 //Assegnare un numero al cpu e un numero all'user
+let cpuNr = Math.floor ( Math.random () * 6 + 1 );
+console.log(cpuNr);
+
+let userNr = Math.floor ( Math.random () *6 + 1);
+console.log(userNr);
+
+
 //Stabilire il vincitore
+if ( cpuNr > userNr){
+    alert(`Il numero del computer è: ${cpuNr}. Il tuo numero è ${userNr}. Hai perso!`)
+} else ( userNr > cpuNr){
+    alert(`Il tuo numero è ${userNr}. Il numero del computer è: ${cpuNr}. Hai vinto!`)
+} 
+
 //E se i numeri sono pari?
+if (cpuNr === userNr){
+    alert(`Il tuo numero è ${userNr}. Il numero del computer è: ${cpuNr}. Avete pareggiato!`)
+}
